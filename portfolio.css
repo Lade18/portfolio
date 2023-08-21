@@ -1,0 +1,186 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.side-nav{
+    height: 800px;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: visible;
+    background-color:#001219;
+    margin: auto;
+    text-align: center;
+}
+.side-nav ul{
+    color: white;
+    font-size: x-large;
+}
+.profile-name{
+    font-size: x-large;
+}
+.side-nav a{
+    color: white;
+    text-decoration: none;
+}
+.side-nav li a:hover{
+    color: green;
+}
+.image{
+    padding-bottom: 10px;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.based {
+    color: white;
+    text-align: center;
+    display: flex;
+    width: 4px;
+    margin-left: 90px;
+}
+.main{
+    margin-left: 250px;
+    background-color:#343a40;
+    text-align: center;
+    padding: 250px;
+}
+.main p{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+.main button {
+    padding: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 60px;
+    margin-right: 70px;
+    background-color: #343a40;
+    color: #20c997;
+    border-radius: 40px;
+    border-color: #20c997;
+}
+.main button a{
+    text-decoration: none;
+    color: #20c997;
+
+}
+.main button a:hover{
+    color: #20c997;
+}
+
+
+h1{
+    color: white;
+    font-size: 60px;
+    margin-bottom: 30px;
+    font-family: sans-serif;
+}
+section h2{
+font-size: 30px;
+margin-left:250px;
+text-align: center;
+margin-bottom: 100px;
+margin-top: 100px;
+}
+section .h2  u{
+    margin-left: 100px;
+color: red;
+}
+section h3{
+    margin-left:280px;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+section h3 mark{
+    color:#20c997 ;
+    background-color: white;
+}
+section .introduction p{
+    margin-left: 280px;
+    font-size: 20px;
+    line-height: 30px;
+    padding-top: 5px;
+    font-family: sans-serif;
+}
+section .side-form .form-field{
+     margin-left: 950px;
+     padding: 50px;
+     height: 100px;
+     margin-top:20px;
+     padding-top: 20px;
+     margin-bottom:60px ;
+}
+section .side-form button{
+    padding: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 60px;
+    margin-right: 70px;
+    background-color: #20c997;
+    border-radius: 40px;
+    border-style: none;
+}
+section .side-form a{
+    text-decoration: none;
+    color: #f1f1f1;
+
+}
+.form-field{
+    margin-top: 40000px;
+}
+.name{
+    margin-bottom: 20px;
+}
+Section .content ul{
+    margin-left: 250px;
+    font-size: 35px;
+    color:#6c757d;
+    display: flex;
+    justify-content: space-between;
+    padding: 100px;
+    list-style: none;
+    text-align: center;
+}
+section .content{
+    margin-left: -60px;
+    float: top;
+    padding: 50px;
+    height: 100px;
+    margin-top:-200px;
+    padding-top: 20px;
+}
+
+section .DO h3{
+    margin-left: 700px;
+    margin-top: 450px;
+    margin-bottom: 10px;
+    padding-top: 100px;
+}
+.container{
+    background-color: #f8f9fa;
+    height: 100%;    
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+
+}
+.flex-container div p{
+    padding: 5px;
+    margin: 50px;
+    line-height: 35px;
+    font-size: 20px;
+margin-left: 280px;
+margin-bottom: 10px;}
+
+.flex-container h3{
+    margin-top: 50px;
+}
+.flex-container .row-1 i{
+    margin-left: 250px;
+}  
